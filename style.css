@@ -1,0 +1,120 @@
+body{
+   background-color: rgba(0, 0, 0, 0.808);
+}
+img{
+    height: 5cm;
+    width: 5cm;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+}
+img:hover{
+    height: 6cm;
+    width: 6cm;
+}
+h1{
+    font-family:sans-serif;
+    font-size: 1cm;
+    color: white;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.514);
+}
+h1:hover{
+    color: yellowgreen;
+}
+h2{
+    color: greenyellow;
+    font-family: sans-serif;
+    text-shadow:3px 3px rgba(0, 0, 0, 0.575);
+}
+a{
+    color: greenyellow;
+    text-decoration: none;
+}
+.options{
+    
+    font-size: larger;
+    font-family: sans-serif;
+    height: 2cm;
+}   
+.options :hover
+{
+    border: 2px solid white;
+}
+.first{
+    width:700px;
+    text-align: center;
+}
+.second
+{
+   font-size: 1cm;
+   text-align: center;
+   color: greenyellow;
+   justify-content: space-arounds;
+   width:600px;
+   
+}
+.third{
+    width:400px;
+    text-align: center;
+    
+    font-size: 0.5cm;
+    color: greenyellow;
+    height: 10cm;
+    
+}
+.fourth{
+    width:400px;
+    text-align: center;
+    
+    font-size: 0.5cm;
+    color: greenyellow;
+    height: 10cm;
+    
+}
+.common{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.five
+{
+    
+    width: 100%;
+    height: 5cm;
+    text-align: center;
+    margin-top:2cm;
+    font-size: xx-large;
+    
+}
+h5{
+    color: white;
+    border: 2px solid yellowgreen;
+}
+p{
+    font-size: 0.5cm;
+    font-family: sans-serif;
+}
+input{
+    padding: 12px;
+    color: black;
+}
+input:hover{
+    border: 2px solid rgb(236, 235, 235);
+    background-color:yellowgreen;
+    
+}
+h4{
+    color: yellowgreen;
+    font-size: large;
+}
+
+form{
+    text-align: left;
+    margin-left: 2cm;
+}
+form:hover{
+    color: white;
+}
+a:hover
+{
+    color: white;
+}
